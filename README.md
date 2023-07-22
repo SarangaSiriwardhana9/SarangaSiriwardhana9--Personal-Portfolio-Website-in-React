@@ -1,5 +1,5 @@
 
-# Mihir Chavan || Personal Portfolio
+#Saranga Siriwardhana || Personal Portfolio
 "My portfolio website has been professionally designed to offer an engaging and visually compelling user experience. Built using the latest 
 technologies such as ReactJS, Tailwind CSS, Framer-Motion, React-Slick, and React-Scroll, the website showcases my skills and achievements
 through dynamic transitions, intuitive navigation, and engaging animations. By leveraging these technologies, my portfolio website stands 
