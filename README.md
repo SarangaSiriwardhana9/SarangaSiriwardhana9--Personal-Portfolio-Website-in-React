@@ -27,6 +27,6 @@ I would like to learn advanced tech skills and libraries like three.js which wil
 
 ### Author
 
-LinkedIn - [https://www.linkedin.com/in/saranga-siriwardhana-409494218/)
+LinkedIn - [https://www.linkedin.com/in/saranga-siriwardhana-409494218/)                                                                                  
 Github - [https://github.com/SarangaSiriwardhana9)
 
