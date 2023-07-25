@@ -1,14 +1,19 @@
 import React from "react";
-import { bannerImg } from "../../assets/index";
+import { bannerImg, logo } from "../../assets/index";
 
 const RightBanner = () => {
   return (
     <div className='w-full lgl:w-1/2 flex justify-center items-center relative'>
       <img
-        className='border-8 w-[200px] h-[200px] lgl:w-[400px] lgl:h-[480px] z-10 border-2 border-[#c2c5d2] transition-all duration-500 ease-in-out transform hover:scale-110 hover:rotate-10'
+        className=' w-[400px] h-[400px] lgl:w-[420px] lgl:h-[420px] z-10  transition-all duration-500 ease-in-out transform hover:scale-110 hover:rotate-10'
         src={bannerImg}
         alt='bannerImg'
-        style={{ marginLeft: "30px" }}
+        style={{
+          marginLeft: "40px",
+          marginTop: "-20px",
+          border: "4px solid white",
+          borderRadius: "50%",
+        }}
       />
       {/* Remove the div element with the "bg-gradient-to-r" class */}
     </div>

@@ -7,6 +7,10 @@ import Achievement from "./Achievement";
 import Experience from "./Experience";
 import Certificates from "./Certificates";
 
+const PDF_FILE_URL = "http://localhost:3000/Saranga_Siriwardhana_Resume.pdf";
+const DRIVE_LINK =
+  "https://drive.google.com/file/d/1QR2Hbr6ke30muVCdG1Q7AqkdzSggnc6q/view?usp=sharing";
+
 const Resume = () => {
   const [educationData, setEducationData] = useState(true);
   const [skillData, setSkillData] = useState(false);
@@ -21,18 +25,20 @@ const Resume = () => {
     },
   };
 
-  const handleDownloadCV = () => {
-    // Replace 'URL_TO_YOUR_PDF_FILE' with the direct link to your PDF file.
-    const pdfUrl = "URL_TO_YOUR_PDF_FILE";
+  const downloadFileAtUrl = (url) => {
+    fetch(url)
+      .then((response) => response.blob())
+      .then((blob) => {
+        const blobURL = window.URL.createObjectURL(new Blob([blob]));
 
-    // Create a link element and set its attributes to download the PDF file.
-    const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.target = "_blank"; // Opens the link in a new tab, add this line if you want to download it in the same tab.
-    link.download = "Your_CV.pdf"; // Specify the name of the downloaded file.
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+        const fileName = url.split("/").pop();
+        const aTag = document.createElement("a");
+        aTag.href = blobURL;
+        aTag.setAttribute("download", fileName);
+        document.body.appendChild(aTag);
+        aTag.click();
+        aTag.remove();
+      });
   };
 
   return (
@@ -40,18 +46,23 @@ const Resume = () => {
       <div className='flex justify-center items-center text-center py'>
         <Title des='My Resume' />
       </div>
+
       <div className='flex justify-center items-center text-center'>
         <motion.button
           variants={buttonVariants}
           whileHover='hover'
           className='bg-[#4433c7] text-white font-bold py-3 px-6 rounded-lg'
-          onClick={handleDownloadCV}
+          onClick={() => {
+            // Navigate to the desired link instead of downloading the file
+            window.location.href = DRIVE_LINK;
+          }}
         >
           Click Here To Download CV
         </motion.button>
       </div>
+
       <div>
-        <ul className='py-10 w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4'>
+        <ul className='mt-8 py-10 w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4'>
           <li
             onClick={() =>
               setEducationData(true) &

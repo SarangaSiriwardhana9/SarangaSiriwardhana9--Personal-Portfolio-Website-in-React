@@ -13,7 +13,7 @@ const Skills = () => {
           <p className='text-sm text-[#4433c7] tracking-[4px] uppercase'>
             Tech Stack
           </p>
-          <h2 className='text-3xl md:text-4xl font-bold'>Development Skill</h2>
+          <h2 className='text-3xl md:text-4xl font-bold'>Development Skills</h2>
         </div>
         <div className='className="mt-14 w-full flex flex-col gap-6'>
           <div className='overflow-x-hidden'>
@@ -88,8 +88,12 @@ const Skills = () => {
 
       <div className='w-full lgl:w-1/2'>
         <div className='py-12 font-titleFont flex flex-col gap-4'>
-          <p className='text-sm text-[#4433c7] tracking-[4px] uppercase'>-</p>
-          <h2 className='text-3xl md:text-4xl font-bold'>Development Skill</h2>
+          <p className='text-sm text-[#4433c7] tracking-[4px] uppercase'>
+            <br></br>
+          </p>
+          <h2 className='text-3xl md:text-4xl font-bold'>
+            <br></br>{" "}
+          </h2>
         </div>
         <div className='flex flex-col gap-6'>
           <div className='overflow-x-hidden'>

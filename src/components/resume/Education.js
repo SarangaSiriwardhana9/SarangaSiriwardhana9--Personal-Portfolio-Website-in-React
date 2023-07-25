@@ -12,7 +12,7 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className='py-6 lgl:py-12 font-titleFont flex flex-col gap-4'>
-          <p className='text-sm text-[#4433c7] tracking-[4px]'>2005 - 2024</p>
+          <p className='text-sm text-[#4433c7] tracking-[4px]'>2016 - 2023</p>
           <h2 className='text-3xl md:text-4xl font-bold'>
             Educational Qualification
           </h2>

@@ -5,8 +5,6 @@ import {
   projectTwo,
   projectThree,
   projectFour,
-  projectFive,
-  projectSix,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -22,47 +20,29 @@ const Projects = () => {
       <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14'>
         <ProjectsCard
           title='Restaurant Management System'
-          des=' Restaurant Management System Using MERN Stack this project involves developing a computerized system for Nugasewana restaurant that can streamline its 
-          operations, automate processes, and provide a better experience for customers and employees.
-           .'
+          des=' Restaurant Management System Using MERN Stack,this project involves developing a computerized system for Nugasewana restaurant that can streamline its operations, automate processes, and provide a better experience for customers and employees with a propper UI.'
           src={projectOne}
           githubLink='https://github.com/SarangaSiriwardhana9/Mern-Stack-Restaurant-Management-System-Using'
         />
 
         <ProjectsCard
-          title='Mi-Blog-Van'
-          des=' This is a blog website have a EJS, Node & Express as backend and Mongoose & MongoDB database.'
-          src={projectTwo}
-          githubLink='https://github.com/mihirc0111/Mi-Blog-Van'
-          websiteLink='https://mihirs-blog-website.onrender.com/'
-        />
-        <ProjectsCard
-          title='Secret Sharing Website'
-          des=' This is a website for posting secrets anonymously with an authentication system .'
+          title='Student Management System'
+          des=' Excited to share my capstone project as part of the Trainee Full-Stack Developer Programme offered by the UOM . This project focuses on developing an efficient information management system for a school. Leveraging cutting-edge technologies, I utilized Angular for the frontend, and for the backend.                          '
           src={projectThree}
-          githubLink='https://github.com/mihirc0111/Secrets'
-          websiteLink='https://mihirs-secrets-sharing-website.onrender.com/'
+          githubLink='https://github.com/SarangaSiriwardhana9/UOM-Capstone-Project---Trainee-Full-Stack-Developer-Program'
         />
         <ProjectsCard
-          title='After School Diaries'
-          des=" To create a website which plays Cartoon/Show songs' audio when user clicks on a particular cartoon image. Using HTML,CSS,JS,Bootstrap to bundle the songs we loved during our childhood!"
+          title='Personal Portfolio'
+          des=' My portfolio website has been professionally designed to offer an engaging and visually compelling user experience. Built using the latest technologies such as ReactJS, Tailwind CSS, Framer-Motion, React-Slick, and React-Scroll, the website showcases my skills and achievements, intuitive navigation, and engaging animations.'
           src={projectFour}
-          githubLink='https://github.com/mihirc0111/AfterSchoolDiaries-HTML-CSS-JS-BootStrap-Website'
-          websiteLink='https://mihirc0111.github.io/AfterSchoolDiaries-HTML-CSS-JS-BootStrap-Website/'
+          githubLink='https://github.com/SarangaSiriwardhana9/SarangaSiriwardhana9--Personal-Portfolio-Website-in-React'
         />
+
         <ProjectsCard
-          title='Weather Website'
-          des=' This is a weather website created using HTML,CSS,Bootstrap,Node.js,Express.js and OpenWeather API .'
-          src={projectFive}
-          githubLink='https://github.com/mihirc0111/Weather-Website-UsingAPI--node.js--express.js'
-          websiteLink='https://mihirs-weather-website.onrender.com/'
-        />
-        <ProjectsCard
-          title='Face Detection'
-          des=' This project uses various libraries like to detect human face from a given image, detect a face from a live -webcam video and to create an attendance system.'
-          src={projectSix}
-          githubLink='https://github.com/mihirc0111/Face-Detection-ML-Project-Python.git'
-          websiteLink=''
+          title='Hotel Booking System    '
+          des=' Hotel App is a full-stack application built using the MERN stack technology. It provides a seamless user experience for hotel booking and management. The app allows users to browse and search for hotels, view detailed information about each hotel, make reservations, and manage their bookings through a attractive UI.'
+          src={projectTwo}
+          githubLink='https://github.com/SarangaSiriwardhana9/MERN-Stack-Project-Hotel-Booking-System'
         />
       </div>
     </section>

@@ -13,7 +13,9 @@ const LeftBanner = () => {
   return (
     <div className='w-full lgl:w-1/2 flex flex-col gap-20'>
       <div className='flex flex-col gap-5'>
-        <h4 className=' text-lg font-normal'>Heyy....... 👀🙋‍♂️ </h4>
+        <h4 className=' text-lg font-normal'>
+          Welcome to my portfolio.......! 👀🙋‍♂️{" "}
+        </h4>
         <h1
           className='text-7xl font-bold text-white'
           style={{ fontFamily: "GeezaPro-Bold" }}
@@ -32,13 +34,17 @@ const LeftBanner = () => {
           />
         </h2>
         <p className='text-base font-bodyFont leading-6 tracking-wide'>
-          "As a BSc(Hons) Software Engineering student at the Sri Lankan
-          Institute of Information Technology (SLIIT), I am passionate about
-          software engineering. My expertise lies in Java and Python coding,
-          complemented by a solid understanding of software development
-          methodologies. Eager to contribute to meaningful projects with a
-          dynamic team, I am constantly seeking opportunities to learn and
-          innovate in the field."
+          I am a BSc (Hons) Software Engineering student at the Sri Lanka
+          Institute of Information Technology(SLIIT), with a passion for
+          software engineering and a strong background in coding. My expertise
+          lies in Java and Python programming languages, as well as web
+          development. I am well-versed in various software development
+          methodologies and eager to collaborate with dynamic teams on
+          meaningful projects. My goal is to develop innovative solutions that
+          address real-world problems, and I am constantly learning and
+          improving my skills to achieve this.<br></br> Thank you for taking the
+          time to learn more about me. I look forward to the opportunity to work
+          with you.
         </p>
       </div>
       {/* Media */}
