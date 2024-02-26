@@ -8,6 +8,9 @@ import codewave from "./images/projects/codewave.PNG";
 import buildHub from "./images/projects/buildHub.jpeg";
 import keepIt from "./images/projects/keepIt.jpeg";
 import MrKing from "./images/projects/mrKing.PNG";
+import StateLk from "./images/projects/statelk.png";
+import SriChat from "./images/projects/srichat.png";
+import Auth from "./images/projects/auth.png";
 
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
@@ -24,5 +27,8 @@ export {
   projectFour,
   quote,
   contactImg,
-  MrKing
+  MrKing,
+  StateLk,
+  SriChat,
+  Auth,
 };

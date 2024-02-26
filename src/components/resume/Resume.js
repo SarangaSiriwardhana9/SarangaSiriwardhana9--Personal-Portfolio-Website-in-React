@@ -8,8 +8,7 @@ import Experience from "./Experience";
 import Certificates from "./Certificates";
 
 const PDF_FILE_URL = "http://localhost:3000/Saranga_Siriwardhana_Resume.pdf";
-const DRIVE_LINK =
-  "https://drive.google.com/file/d/1j2Nbui2T00AhYZtJkuYopZpp4X5jTYsg/view?usp=sharing";
+const DRIVE_LINK ="https://drive.google.com/file/d/1chO6nADJj_T5Q2_swPXAL_xkBVnOo34p/view?usp=sharing";
 
 const Resume = () => {
   const [educationData, setEducationData] = useState(true);
@@ -54,7 +53,7 @@ const Resume = () => {
           className='bg-[#4433c7] text-white font-bold py-3 px-6 rounded-lg'
           onClick={() => {
             // Navigate to the desired link instead of downloading the file
-            window.location.href = PDF_FILE_URL;
+            window.location.href = DRIVE_LINK; // PDF_FILE_URL;
           }}
         >
           Click Here To Download CV
