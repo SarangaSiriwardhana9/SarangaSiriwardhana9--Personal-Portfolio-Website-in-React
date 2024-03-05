@@ -10,7 +10,7 @@ import { navLinksdata } from "../../constants";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <div className='px-10 w-full h-24 sticky top-0 z-50 bg-black mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600'>
+    <div className='w-full h-24 sticky top-0 z-50 bg-black mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600'>
       <div>
         <img src={logo} alt='logo' className='w-15 h-16 ' />
       </div>
@@ -100,6 +100,7 @@ const Navbar = () => {
       </div>
     </div>
   );
+
 };
 
 export default Navbar;
