@@ -12,6 +12,7 @@ import {
   StateLk,
   SriChat,
   Auth,
+  note,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -32,23 +33,32 @@ const Projects = () => {
           src={MrKing}
           githubLink='https://github.com/SarangaSiriwardhana9/Cafe_MRKing'
         />
-        <ProjectsCard
-          title='StateLk - Real Estate Platform'
-          des='StateLk is a comprehensive real estate platform designed for the Sri Lankan market. It offers a user-friendly interface for buying and selling homes and lands. Users can easily add property listings, view property details, and contact sellers. The platform aims to simplify the property search process and enhance the overall experience for both buyers and sellers in Sri Lanka.'
-          src={StateLk}
-          githubLink='https://github.com/SarangaSiriwardhana9/StateLK--MERN_Full_Stack_Estate_Marketplace'
-        />
+   
         <ProjectsCard
           title='Codewave - Interactive Programming Assistant Tool'
           des='Codewave is an interactive programming assistance tool designed to support first-year Information Technology students in their learning journey. It provides a dynamic virtual lab environment, automated guidelines, and real-time collaboration to empower students in navigating coding exercises at their own pace.'
           src={codewave}
           githubLink='https://github.com/SarangaSiriwardhana9/CodeWave'
         />
+
+<ProjectsCard
+          title='StateLk - Real Estate Platform'
+          des='StateLk is a comprehensive real estate platform designed for the Sri Lankan market. It offers a user-friendly interface for buying and selling homes and lands. Users can easily add property listings, view property details, and contact sellers. The platform aims to simplify the property search process and enhance the overall experience for both buyers and sellers in Sri Lanka.'
+          src={StateLk}
+          githubLink='https://github.com/SarangaSiriwardhana9/StateLK--MERN_Full_Stack_Estate_Marketplace'
+        />
         <ProjectsCard
           title='KeepIt - Book Marketplace Mobile App'
           des='This mobile app project is designed to create a user-friendly and efficient platform for buying and selling books in a peer-to-peer (C2C) fashion. It offers a seamless experience for book enthusiasts who want to trade, purchase, or sell their pre-owned books.'
           src={keepIt}
           githubLink='https://github.com/SarangaSiriwardhana9/KeepIt'
+        />
+
+<ProjectsCard
+          title='Idea Vault - notes keeping web application'
+          des='Idea Vault is a note-keeping web application designed to help users organize their thoughts, ideas, and tasks. Users can create, update, and delete notes, as well as pin notes for easy access and search for notes. The application provides a user-friendly interface and is built with Vite, Node.js, Express, MongoDB, and Firebase for authentication and image storage. JWT and Redux are used for authentication, and Google login is integrated.'
+          src={note}
+          githubLink='https://github.com/SarangaSiriwardhana9/IdeaVault-MERN_Full_Stack_Notes_APP?tab=readme-ov-file'
         />
 
         <ProjectsCard
