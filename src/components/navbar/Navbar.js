@@ -41,7 +41,7 @@ const Navbar = () => {
           <FiMenu />
         </span>
         {showMenu && (
-          <div className='w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide'>
+          <div className='w-[80%] h-screen overflow-scroll absolute top-0 -left-4 bg-gradient-to-r from-[#050505] to-[#0a0a0a] p-4 scrollbar-hide'>
             <div className='flex flex-col gap-8 py-2 relative'>
               <div>
                 <img className='w-32' src={logo} alt='logo' />
@@ -52,11 +52,11 @@ const Navbar = () => {
                   technology and user experience."
                 </p>
               </div>
-              <ul className='flex flex-col gap-4'>
+              <ul className='flex flex-col gap-2'>
                 {navLinksdata.map((item) => (
                   <li
                     key={item._id}
-                    className='text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-[#4433c7] duration-300'
+                    className='text-base uifont-normal text-gray-400 tracking-wide cursor-pointer hover:text-[#4433c7] duration-300'
                   >
                     <Link
                       onClick={() => setShowMenu(false)}

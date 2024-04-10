@@ -12,6 +12,7 @@ import StateLk from "./images/projects/statelk.png";
 import SriChat from "./images/projects/srichat.png";
 import Auth from "./images/projects/auth.png";
 import note from "./images/projects/note.png";
+import realtalk from "./images/projects/realtalk.png";
 
 
 import quote from "./images/testmonial/quote.png";
@@ -33,5 +34,6 @@ export {
   StateLk,
   SriChat,
   Auth,
-  note
+  note,
+  realtalk,
 };
