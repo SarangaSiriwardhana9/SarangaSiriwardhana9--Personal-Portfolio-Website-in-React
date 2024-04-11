@@ -12,10 +12,10 @@ const Navbar = () => {
   return (
     <div className='w-full h-24 sticky top-0 z-50 bg-black mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600'>
       <div>
-        <img src={logo} alt='logo' className='w-15 h-16 ' />
+        <img src={logo} alt='logo' className='w-15 h-16  ml-4' />
       </div>
       <div>
-        <ul className='hidden mdl:inline-flex items-center gap-6 lg:gap-10'>
+        <ul className='hidden mdl:inline-flex items-center gap-6 lg:gap-10 mr-6'>
           {navLinksdata.map(({ _id, title, link }) => (
             <li
               className='text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-[#4433c7] duration-300'
