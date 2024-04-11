@@ -8,7 +8,7 @@ import Experience from "./Experience";
 import Certificates from "./Certificates";
 
 const PDF_FILE_URL = "http://localhost:3000/Saranga_Siriwardhana_Resume.pdf";
-const DRIVE_LINK ="https://drive.google.com/file/d/1ISD-1Pu4NI8YnLogC0cb1JSaNA9OsINC/view?usp=sharing";
+const DRIVE_LINK ="https://drive.google.com/file/d/1FsruzyzHrVzKsb141svt9Nnd0Wp7ziPM/view?usp=sharing";
 
 const Resume = () => {
   const [educationData, setEducationData] = useState(true);

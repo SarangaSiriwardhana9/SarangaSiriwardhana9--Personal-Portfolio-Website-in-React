@@ -52,7 +52,7 @@ const Navbar = () => {
                   technology and user experience."
                 </p>
               </div>
-              <ul className='flex flex-col gap-2'>
+              <ul className='flex flex-col gap-'>
                 {navLinksdata.map((item) => (
                   <li
                     key={item._id}

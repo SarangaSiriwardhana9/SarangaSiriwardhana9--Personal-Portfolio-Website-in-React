@@ -12,13 +12,13 @@ const LeftBanner = () => {
     
   });
   return (
-    <div className='w-full lgl:w-3/4 flex flex-col gap-20'>
+    <div className='w-full lgl:w-3/4 flex flex-col gap-20 p-1'>
       <div className='flex flex-col gap-5'>
         <h4 className=' text-lg font-normal'>
           Welcome to my portfolio.......! 👀🙋‍♂️{" "}
         </h4>
         <h1
-          className='text-7xl font-bold text-white'
+          className='text-6xl font-bold text-white '
           style={{ fontFamily: "GeezaPro-Bold" }}
         >
           Hi, I'm{" "}
@@ -26,7 +26,7 @@ const LeftBanner = () => {
             Saranga Siriwardhana
           </span>
         </h1>
-        <h2 className='text-3xl font-bold text-#4f53df '>
+        <h2 className='text-2xl font-bold h-16 text-#4f53df '>
           A <span>{text}</span>
           <Cursor
             cursorBlinking='false'
