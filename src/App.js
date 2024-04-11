@@ -17,7 +17,7 @@ function App() {
         You can adjust the values based on your design needs.
       */}
       <Navbar />
-      <div className='max-w-screen-xl mx-auto  px-4 md:px-8 lg:px-10'>
+      <div className='max-w-screen-xl mx-auto  px-3 md:px-8 lg:px-10'>
         <Banner />
         <Features />
         <Projects />
